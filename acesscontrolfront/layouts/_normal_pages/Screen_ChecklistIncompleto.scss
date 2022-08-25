@@ -1,0 +1,120 @@
+.container{
+    display: flex;
+    flex-direction: column;
+
+    .content{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .row-superior{
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .title-page{
+                text-align: center;
+                font-size: 32px;
+                font-family: "Bosch_Sans_Bold";
+            }
+
+        }
+
+        .row-inferior{
+            width: 90%;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .info-checklist{
+                width: 50%;
+                height: auto;
+                background-color: var(--yellow);
+                display: flex;
+                flex-direction: column;
+
+                .title-info-checklist{
+                    font-family: "Bosch_Sans_Bold";
+                    font-size: 26px;
+                    margin: 10px;
+                }
+
+                .subject-info-checklist{
+                    font-family: "Bosch_Sans_Regular";
+                    font-size: 22px;
+                    margin: 10px;
+                }
+
+                .subtitle-info-checklist{
+                    font-family: "Bosch_Sans_Bold";
+                    font-size: 21px;
+                    margin: 16px 0px 0px 10px;
+                }
+
+                .data-info-checklist{
+                    font-family: "Bosch_Sans_Regular";
+                    font-size: 21px;
+                    margin: 0px 0px 10px 10px;
+                }
+            }
+
+            .align-items-center{
+                margin-top: 60px;
+                width: 100%;
+                height: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .btn{
+                    border: none;
+                    margin: 10px;
+                    width: 20vh;
+                    height: 5vh;
+                    padding: 10px;
+                    border-radius: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                }
+
+                .btn-sucess{
+                    background-color: var(--green);
+                    font-size: 20px;
+                    font-family: "Bosch_Sans_Bold";
+
+                    &:hover{
+                        background-color: var(--hoverGreen);
+                        cursor: pointer;
+                    }
+                }
+
+                .btn-alert{
+                    background-color: var(--red);
+                    font-size: 20px;
+                    font-family: "Bosch_Sans_Bold";
+
+                    &:hover{
+                        background-color: var(--hoverRed);
+                        cursor: pointer;
+                    }
+
+                }
+
+                .p-confirm{
+                    font-family: "Bosch_Sans_Bold";
+                    font-size: 24px;
+                    text-align: center;
+                }
+
+            }
+        }
+    }
+}

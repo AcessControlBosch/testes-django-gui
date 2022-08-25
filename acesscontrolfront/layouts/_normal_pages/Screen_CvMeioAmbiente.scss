@@ -1,0 +1,133 @@
+.container{
+    display: flex;
+    flex-direction: column;
+
+    .content{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .row-superior{
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+
+            .title-page{
+                text-align: center;
+                font-size: 32px;
+                font-family: "Bosch_Sans_Bold";
+            }
+
+        }
+
+        .row-inferior{
+            width: 90%;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .card-info{
+                width: 60%;
+                height: auto;
+                background-color: var(--gray);
+                display: flex;
+                flex-direction: column;
+
+                .card-title{
+                    margin: 10px;
+                    font-size: 18px;
+                    font-family: "Bosch_Sans_Bold";
+                }
+                
+                .card-subject{
+                    margin: 10px;
+                    font-size: 16px;
+                    font-family: "Bosch_Sans_Regular";
+                }
+
+            }
+
+            .formulario{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 10px;
+                width: 100%;
+                height: 80vh;
+
+                .line-question{
+                    width: 85%;
+                    height: auto;
+                    display: flex;
+                    margin-top: 30px;
+                    align-items: center;
+
+                    .checkbox{
+                        width: 3vh;
+                        height: 3vh;
+                        margin-right: 20px
+                    }
+
+                    .p-question{
+                        font-size: 20px;
+                        font-family: "Bosch_Sans_Regular";
+                    }
+
+
+                }
+
+            }
+
+            .align-items-center{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 30px;
+
+                .btn{
+                    border: none;
+                    margin: 10px;
+                    width: 20vh;
+                    height: 5vh;
+                    padding: 10px;
+                    border-radius: 15px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: "Bosch_Sans_Bold";
+                }
+
+                .btn-sucess{
+                    background-color: var(--green);
+                    
+                    &:hover{
+                        background-color: var(--hoverGreen);
+                        cursor: pointer;
+                    }
+
+                }
+
+                .btn-alert{
+                    background-color: var(--red);
+
+                    &:hover{
+                        background-color: var(--hoverRed);
+                        cursor: pointer;
+                    }
+
+                }
+
+            }
+            
+        }
+
+    }
+
+}

@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+    flex-direction: column;
+
+    .content{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .row-superior{
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .title-page{
+                text-align: center;
+                font-size: 32px;
+                font-family: "Bosch_Sans_Bold";
+            }
+
+        }
+
+        .row-inferior{
+            width: 100%;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            // background-color: antiquewhite;
+
+            .content-row-inferior{
+                // background-color: yellow;
+                width: 80%;
+                height: 60%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+
+                .qrCodeCamera{
+                    // background-color: aqua;
+                    width: 30%;
+                    height: 80%;
+                    border: 1px solid #007BC0;
+                    display: flex;
+                }
+
+                .subtitle{
+                    font-size: 20px;
+                }
+
+                .errorP{
+                    color: red;
+                    font-size: 20px;
+                }
+            }
+
+            
+            
+        }
+
+    }
+
+}

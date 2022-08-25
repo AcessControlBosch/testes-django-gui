@@ -1,0 +1,62 @@
+.titleModalcss{
+    margin: 10px;
+    font-size: 18px;
+    font-family: "Bosch_Sans_Bold";
+    color: var(--yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.messageModalcss{
+    margin: 10px;
+    font-size: 16px;
+    font-family: "Bosch_Sans_Regular";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.pi{
+    color: #4AB073;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aling-itens-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button{
+        padding: 10px 20px 10px 20px;
+        margin: 10px;
+        border:none;
+
+        p{
+            font-weight: bold;
+        }
+
+    }
+
+    .btn-success{
+        background-color: var(--green);
+
+        &:hover{
+            background-color: var(--hoverGreen); 
+        }
+    }
+
+    .btn-warming{
+        background-color: var(--red);
+
+        &:hover{
+            background-color: var(--hoverRed); 
+        }
+
+    }
+
+}

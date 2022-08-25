@@ -1,0 +1,132 @@
+@media only screen and (max-width: 600px){
+
+    .container {
+
+        .content{
+            display: flex;
+
+            .row-superior{
+
+                .title-page{
+                    font-size: 22px;
+                }
+
+            }
+
+            .buttons{
+                display: flex;
+
+                .button-content{
+                    width: 95%;
+
+                    .button-function{
+                        width: 70%;
+                    }
+                    
+                } 
+
+            }
+
+            .row-inferior{
+                width: 85%;
+
+                .info-checklist{
+                    width: 90%;
+
+                    .title-info-checklist{
+                        font-size: 20px;
+                    }
+    
+                    .subject-info-checklist{
+                        font-size: 18px;
+                    }
+    
+                    .subtitle-info-checklist{
+                        font-size: 17px;
+                    }
+    
+                    .data-info-checklist{
+                        font-size: 17px;
+                    }
+
+                }
+
+                .subtitle{
+                    font-size: 18px;
+                }
+
+                .video{
+                    width: 100%;
+                    height: 35vh;
+                }
+
+                .align-items-center{
+
+                    .btn{
+                        width: 12vh;
+                        padding: 13px;
+                    }
+
+                }
+
+                .card-info{
+                    width: 90%;
+
+                    .card-title{
+                        font-size: 16px;
+                    }
+
+                    .card-subject{
+                        font-size: 14px;
+                    }
+
+
+                }
+
+                .formulario{
+
+                    .line-question{
+                        width: 90%;
+                
+                        .checkbox{
+                            width: 3vh;
+                            height: 3vh;
+                            margin-right: 20px
+                        }
+
+                        .p-question{
+                            font-size: 16px;
+                            font-family: "Bosch_Sans_Regular";
+                        }
+                    }
+
+                }
+
+                .align-items-center{
+                    width: 85%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 30px;
+
+                    .p-confirm{
+                        font-size: 18px;
+                    }
+
+                    .btn{
+                        border: none;
+                        margin: 10px;
+                        width: 20vh;
+                        height: 5vh;
+                        padding: 10px;
+                        border-radius: 10px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                    }
+                }
+            }
+        }
+    }
+}

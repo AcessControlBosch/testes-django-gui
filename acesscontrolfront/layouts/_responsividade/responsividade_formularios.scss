@@ -1,0 +1,70 @@
+@media only screen and (max-width: 600px){
+
+    .container {
+
+        .content{
+            display: flex;
+
+            .row-inferior{
+
+                .content-row-inferior{
+                    width: 80%;
+                    height: 60%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+
+                    .qrCodeCamera{
+                        margin-top: 30px;
+                        width: 80%;
+                        height: 70%;
+                        border: 1px solid #007BC0;
+                        display: flex;
+                    }
+                
+                }
+            }
+
+            .formulario{
+                width: 80%;
+
+                .title-page{
+                    font-size: 22px;
+                }
+
+                .input-form{
+                    padding: 10px;
+                }
+    
+                .label-form{
+                    font-size: 15px;
+                }
+
+                .align-items-center{
+                    display: flex;
+                    width: 100%;
+
+                    .btn-logar{
+                        width: 12vh;
+                        height: 5vh;
+                    }
+
+                    .btn-send-approved{
+                        width: 15vh;
+                        height: 6vh;
+                    }
+
+                }
+
+                .btn-redirect{
+                    width: auto;
+                }
+
+            }
+
+        }
+    
+    }
+
+}

@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Bosch_Sans_Bold';
+    src: url("@/assets/OTF/BoschSans-Bold.otf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Bosch_Sans_Regular';
+    src: url("@/assets/OTF/BoschSans-Regular.otf");
+    font-weight: normal;
+}
+ 
+:root{
+    --gray: #E0E2E5;
+    --green: #72CA92;
+    --red: #FF5152;
+    --DarkBlue: #006EAD;
+    --LightBlue: #007BC0;
+    --yellow: #EEC100;
+    --hoverGreen: #005F32;
+    --hoverRed: #A80003;
+}
